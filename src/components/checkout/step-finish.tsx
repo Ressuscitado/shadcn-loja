@@ -8,7 +8,7 @@ export const StepFinish = () => {
     const { name } = useCheckoutStore(state => state);
 
     const message = generateMessage();
-    const linkZap = `https://wa.me//+5511934307703?text=${encodeURI(message)}`;
+    const linkZap = `https://wa.me/+5511934307703?text=${encodeURI(message)}`;
 
     return (
         <div className="text-center flex flex-col gap-5">
